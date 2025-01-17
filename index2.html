@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>My To-Do List</h1>
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <select id="taskPriority">
+                <option value="normal">Normal</option>
+                <option value="high">High</option>
+                <option value="low">Low</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <input type="time" id="openingTime" placeholder="Opening Time">
+            <input type="time" id="closingTime" placeholder="Closing Time">
+        </div>
+        <button id="addTaskBtn">Add Task</button>
+        <ul id="taskList"></ul>
+    </div>
+    <div class="quote-container">
+        <blockquote>
+            "Procrastination is the art of keeping up with yesterday."
+        </blockquote>
+        <p>– Don Marquis</p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My To-Do List Application. All rights reserved.</p>
+        <p>use another Application <a href="index.html">To-Do_List</a></p>
+        <p>Go to Portfolio</p>
+    </footer>
+    <script src="script2.js"></script>
+</body>
+</html>
+
